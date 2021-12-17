@@ -4,7 +4,7 @@ const bodyParser = require ("body-parser");
 const cors= require ("cors");
 
 const PORT= 3000;
-const MONGO_URL= "mongodb+srv://romina:Romina2185@cluster0.dtszr.mongodb.net/laboratorio?retryWrites=true&w=majority ";
+const MONGO_URL= "mongodb+srv://romina:ROMINA@cluster0.dtszr.mongodb.net/labonline?retryWrites=true&w=majority";
 
 
 const app= express();
@@ -26,7 +26,7 @@ const connectDb = async () => {
         });
     }catch(error){
         console.log ( `Error: ${error}`);
-        console.log ("no fue posible conectarse a la base de datos")
+        console.log ("no fu|+e posible conectarse a la base de datos")
 
     }
 };

@@ -1,5 +1,6 @@
 const mongoose =require ("mongoose");
 
+
 const preparativosSchema = mongoose.Schema({
     codigo:{
         type: String,
@@ -15,4 +16,4 @@ const preparativosSchema = mongoose.Schema({
 
 });
 
-module.exports = mongoose.model("preparativos", preparativosSchema);
+module.exports = mongoose.model("preparativos", preparativosSchema, "preparativos");

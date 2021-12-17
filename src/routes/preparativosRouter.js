@@ -1,8 +1,8 @@
 const express =require ("express");
 const router =express.Router();
-const preparativosControler= requiere ("../controllers/preparativosControler");
+const preparativosController = require ("../controllers/preparativosController");
 
-router.get(`/`, preparativosControler.getPreparativos);
+router.get(`/`, preparativosController.getPreparativos);
 
 
 module.exports= router;

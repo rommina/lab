@@ -21,4 +21,4 @@ const obrasocialSchema = mongoose.Schema({
 
 });
 
-module.exports =mongoose.model ("obrasocial", obrasocialSchema); 
+module.exports =mongoose.model ("obrasocial", obrasocialSchema,"obrasocial"); 

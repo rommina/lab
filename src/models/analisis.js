@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 
 const analisisSchema = mongoose.Schema(
     {
-        codido: {
+    
+        codigo: {
             type: String,
             required: true,
         },
@@ -18,9 +19,9 @@ const analisisSchema = mongoose.Schema(
          },
          idprep: {
             type: mongoose.Schema.Types.ObjectId,
-            ref: "preparativos",
+            ref:"preparativos",
             required: true,
         },
  });
 
- module.exports = mongoose.model("analisis", analisisSchema);
+ module.exports = mongoose.model("analisis", analisisSchema,"analisis");
