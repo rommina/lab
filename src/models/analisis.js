@@ -18,9 +18,7 @@ const analisisSchema = mongoose.Schema(
             type: String,
          },
          idprep: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref:"preparativos",
-            required: true,
+            type: String,
         },
  });
 

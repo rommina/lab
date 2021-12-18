@@ -15,7 +15,6 @@ const obrasocialSchema = mongoose.Schema({
     },
     digitales:{
         type:String,
-        require: true,
         enum:[ "si","no"],
     },
 
