@@ -18,7 +18,7 @@ const obrasocialSchema = mongoose.Schema({
         enum:[ "si","no"],
     },
     imagen: {
-        type: String,
+        type:String,
     }
 
 });
